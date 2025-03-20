@@ -1,0 +1,25 @@
+.comparison-chart {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-chart h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.loading,
+.error {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.error {
+  color: red;
+}

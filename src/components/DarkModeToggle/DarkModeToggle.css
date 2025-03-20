@@ -1,0 +1,18 @@
+.dark-mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+}
+
+.dark-mode-toggle button {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.dark-mode-toggle button:hover {
+  opacity: 0.9;
+}

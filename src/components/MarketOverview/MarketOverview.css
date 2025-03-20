@@ -1,0 +1,58 @@
+.market-overview {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.market-overview h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.crypto-section,
+.stock-section {
+  margin-bottom: 1.5rem;
+}
+
+.crypto-section h3,
+.stock-section h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+
+.asset-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.asset-item:last-child {
+  border-bottom: none;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .market-overview {
+    padding: 1rem;
+  }
+
+  .market-overview h2 {
+    font-size: 1.25rem;
+  }
+
+  .crypto-section h3,
+  .stock-section h3 {
+    font-size: 1rem;
+  }
+
+  .asset-item {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+}

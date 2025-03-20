@@ -1,0 +1,33 @@
+.price-display {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.price-display h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.price-info p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .price-display {
+    padding: 1rem;
+  }
+
+  .price-display h2 {
+    font-size: 1.25rem;
+  }
+
+  .price-info p {
+    font-size: 0.9rem;
+  }
+}
